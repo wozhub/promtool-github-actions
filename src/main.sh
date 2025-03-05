@@ -1,5 +1,7 @@
 #!/bin/bash
 
+shopt -s globstar
+
 function parseInputs {
   # Required inputs
   if [ "${INPUT_PROMTOOL_ACTIONS_FILES}" != "" ]; then
